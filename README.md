@@ -6,6 +6,7 @@ A Web Project made during L1 using PHP
 We should make a Website using PHP and make a BD with SQL.
 
 ----
+**Point :**
 
 - [ ] Static Website
 - [ ] BD with simple requests and few forms
@@ -13,6 +14,7 @@ We should make a Website using PHP and make a BD with SQL.
 - [ ] BD with hard requests, website using the BD, and a nice design
 
 ----
+**Bonus :**
 
 - [ ] Use existing PHP
 - [ ] Pictures in the BD
