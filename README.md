@@ -3,7 +3,7 @@ A Web Project made during L1 using PHP
 
 ----
 
-We should make a Website using PHP and make a BD with SQL.
+We should make a Website using PHP and make a Database with SQL.
 
 ----
 **Point :**
