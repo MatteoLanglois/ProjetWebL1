@@ -12,6 +12,8 @@ We should make a Website using PHP and make a BD with SQL.
 - [ ] BD with middle requests thanks to forms
 - [ ] BD with hard requests, website using the BD, and a nice design
 
+----
+
 - [ ] Use existing PHP
 - [ ] Pictures in the BD
 - [ ] Advanced Requests (for example : group by)
