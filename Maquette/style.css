@@ -37,8 +37,8 @@ nav {
 ul {
   list-style: none;
   color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 0px;
 }
 
@@ -52,6 +52,32 @@ hr {
   color: rgba(23, 23, 23, 0.62);
 }
 
+.Body {
+  display: flex;
+  flex-direction: row;
+}
+
+.Center {
+  width: 1000px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 50px;
+
+}
+
+.Anniversaire {
+  width: 300px;
+  margin-left: 15px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(29, 64, 65);
+}
+
+h4 {
+  color: white;
+  font-size: 1.2em;
+}
+
 footer ul {
   display: flex;
   flex-direction: row;
@@ -60,7 +86,7 @@ footer ul {
 
 .icone {
   font-size: 1.3em;
-  margin-right: 10px;
+  margin: 10px;
 }
 
 a {
