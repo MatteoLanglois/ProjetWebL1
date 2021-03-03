@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>ENT Millocheau</title>
-    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="styleA.css">
+    <link rel="stylesheet" href="../style.css">
     <script src="https://kit.fontawesome.com/f0c5800638.js" crossorigin="anonymous"></script>
   </head>
+  
 
   <body>
     <header>
@@ -17,20 +18,24 @@
       <img src="data/taoki.png" alt="Image du dragon Taoki" class="taoki">
     </header>
 
-	<div>
+	<div class="container">
 		<div class="annuaire">
-			<ul>
-				<li><i class="fas fa-user-tie icone"></i>M. Langlois</li>
-				<li>mlanglois2@ac-nantes.fr</li>
-				<li><i class="fas fa-user-tie icone"></i>Prénom...Nom...Mail...(Téléphone)</li>
-				<li><i class="fas fa-user-tie icone"></i>Prénom...Nom...Mail...(Téléphone)</li>
-				<li><i class="fas fa-user-tie icone"></i>Prénom...Nom...Mail...(Téléphone)</li>
-				<li><i class="fas fa-user-tie icone"></i>Prénom...Nom...Mail...(Téléphone)</li>
-				<li><i class="fas fa-user-tie icone"></i>Prénom...Nom...Mail...(Téléphone)</li>
-				<li><i class="fas fa-user-tie icone"></i>Prénom...Nom...Mail...(Téléphone)</li>
-				<li><i class="fas fa-user-tie icone"></i>Prénom...Nom...Mail...(Téléphone)</li>
-				<li><i class="fas fa-user-tie icone"></i>Prénom...Nom...Mail...(Téléphone)</li>
-				<li><i class="fas fa-user-tie icone"></i>Prénom...Nom...Mail...(Téléphone)</li>
+			<ul class="tasks">     
+        <li class="task" data-id="3">
+          <div class="task__content">
+            <i class="fas fa-user-tie icone"></i>M. Langlois
+          </div>
+        </li>
+        <li class="task" data-id="2">
+          <div class="task__content">
+            <i class="fas fa-user-tie icone"></i>Gabin
+          </div>
+        </li>
+        <li class="task" data-id="1">
+          <div class="task__content">
+            <i class="fas fa-user-tie icone"></i>Zoé
+          </div>
+        </li>
 			</ul>
 		</div>
 	</div>
@@ -43,5 +48,21 @@
       </ul>
     </footer>
 
+
+    <nav id="context-menu" class="context-menu">
+      <ul class="context-menu__items">
+        <li class="context-menu__item">
+          <i class="fa fa-address-card"></i> Profil</a>
+        </li>
+        <li class="context-menu__item">
+           <i class="fa fa-copy"></i> Copier le numéro de téléphone</a>
+        </li>
+        <li class="context-menu__item">
+          <i class="fa fa-copy"></i> Copier le mail</a>
+        </li>
+      </ul>
+
+    <script src="main.js"></script>
   </body>
 </html>
+
