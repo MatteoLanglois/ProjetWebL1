@@ -99,3 +99,12 @@ a:hover {
   transform: scale(2);
   font-size: 1.5em;
 }
+
+input[type=button] {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(29, 64, 65);
+  color: white;
+  border-style: hidden;
+  margin-left: 15px;
+}

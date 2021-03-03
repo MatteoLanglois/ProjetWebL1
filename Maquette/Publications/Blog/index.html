@@ -24,7 +24,7 @@
         <ul>
           <li><a href="publications/cmultimedia/index.html"><i class="fas fa-book icone"></i>Cahiers multimédias</a></li>
           <li><hr></li>
-          <li><i class="fas fa-book-open icone"></i><span class="ici">Blog</span></li>
+          <li><i class="fas fa-book-open icone"></i><span>Blog</span></li>
           <li><hr></li>
           <li><i class="fas fa-file-archive icone"></i>Archivage de fichier</li>
           <li><hr></li>
@@ -41,23 +41,33 @@
       <div class="Center">
         <div class="texte">
           <h3>Le sujet du blog</h3>
-          <textarea name="un_texte" rows="5" cols="80" placeholder="Ouah, un endroit où l'on peut écrire jusqu'à 400 caractères (Textarea n'est pas fait pour s'adapter à la taille de la page #Javascript)" maxlength="400"></textarea>
-          <br/>
-          <input type="button" name="bouton_texte_1" value="un petit bouton valider">
-          <input type="button" name="bouton_texte_2" value="un petit bouton modifier">
-          <input type="button" name="bouton_texte_3" value="un petit bouton supprimer">
-          <br/><br/>
-          <textarea name="un_texte_2" rows="5" cols="80" placeholder="Wow, un commentaire avec 400 caractères max aussi." maxlength="400"></textarea>
-          <br/><br/><br/><br/><br/> <!--penser à faire en sorte qu'il n'y ai pas autant de saut à la ligne-->
-          <input type="button" name="bouton_commentaire_1" value="un autre petit bouton supprimer">
-          <input type="button" name="bouton_commentaire_2" value="un autre petit bouton modifier">
-          <input type="button" name="bouton_commentaire_3" value="un autre petit bouton valider">
-          <br/><br/>
-          <textarea name="un_texte_2" rows="5" cols="80" placeholder="Un autre commentaire." maxlength="400"></textarea>
-          <br/><br/><br/><br/><br/> <!--penser à faire en sorte qu'il n'y ai pas autant de saut à la ligne-->
-          <input type="button" name="bouton_commentaire_1" value="Un bouton supprimer">
-          <input type="button" name="bouton_commentaire_2" value="Un bouton modifier">
-          <input type="button" name="bouton_commentaire_3" value="Un bouton valider">
+          <div class="Blog">
+            <textarea name="un_texte" rows="5" cols="80" placeholder="Blog" maxlength="400"></textarea>
+            <div class="bouton-sujet">
+              <input type="button" name="bouton_texte_1" value="Valider">
+              <input type="button" name="bouton_texte_2" value="Modifier">
+              <input type="button" name="bouton_texte_3" value="Supprimer">
+            </div>
+            <div class="Comm">
+              <div class="ComDiv">
+                <textarea class="Commentaire" name="un_texte_2" rows="5" cols="80" placeholder="Commentaire sur le blog" maxlength="400"></textarea>
+                <div class="Bouton-com">
+                  <input type="button" name="bouton_commentaire_1" value="Supprimer">
+                  <input type="button" name="bouton_commentaire_2" value="Modifier">
+                  <input type="button" name="bouton_commentaire_3" value="Valider">
+                </div>
+              </div>
+              <div class="ComDiv">
+                <textarea class="Commentaire" name="un_texte_3" rows="5" cols="80" placeholder="Commentaire sur le blog" maxlength="400"></textarea>
+                <div class="Bouton-com">
+                  <input type="button" name="bouton_commentaire_1" value="Supprimer">
+                  <input type="button" name="bouton_commentaire_2" value="Modifier">
+                  <input type="button" name="bouton_commentaire_3" value="Valider">
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
