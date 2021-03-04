@@ -1,0 +1,115 @@
+html {
+ background: radial-gradient(ellipse farthest-corner at 50% 140%, rgba(0, 0, 0, 0.75) 10%, rgba(0, 0, 0, 0.85) 90%);
+ height: 100%;
+ font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.Title {
+  background-color: inherit;
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.taoki {
+  width: 150px;
+  color: white;
+}
+
+.burger {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 275px;
+  height: 100%;
+  background-color: rgb(29, 64, 65);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  padding-left: 10px;
+  transform: translateX(-275px);
+}
+
+ul {
+  list-style: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+}
+
+li {
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+hr {
+  width: 255px;
+  color: rgba(23, 23, 23, 0.62);
+}
+
+.Body {
+  display: flex;
+  flex-direction: row;
+}
+
+.Center {
+  width: 1000px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 50px;
+}
+
+.Anniversaire {
+  width: 300px;
+  margin-left: 15px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(29, 64, 65);
+}
+
+h4 {
+  color: white;
+  font-size: 1.2em;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icone {
+  font-size: 1.3em;
+  margin: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: font-size 400ms ease-in-out;
+}
+
+a:hover {
+  transform: scale(2);
+  font-size: 1.5em;
+}
+
+input[type=button] {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(29, 64, 65);
+  color: white;
+  border-style: hidden;
+  margin-left: 15px;
+}
