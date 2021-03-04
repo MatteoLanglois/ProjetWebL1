@@ -1,115 +1,289 @@
-html {
- background: radial-gradient(ellipse farthest-corner at 50% 140%, rgba(0, 0, 0, 0.75) 10%, rgba(0, 0, 0, 0.85) 90%);
- height: 100%;
- font-family: sans-serif;
-}
 
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
 
-.Title {
-  background-color: inherit;
-  color: white;
-  text-align: center;
-  width: 80%;
-  margin-left: 10%;
-}
+@media (min-width: 750px) { /*Pour les écrans de plus de 750pixels
 
-.taoki {
-  width: 150px;
-  color: white;
-}
-
-.burger {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 275px;
+  /* html */
+  html {
+  background: radial-gradient(ellipse farthest-corner at 50% 140%, rgba(0, 0, 0, 0.75) 10%, rgba(0, 0, 0, 0.85) 90%);
   height: 100%;
-  background-color: rgb(29, 64, 65);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: left;
-  padding-left: 10px;
-  transform: translateX(-275px);
+  font-family: sans-serif;
+  }
+
+
+
+  /*header*/
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .Title {
+    background-color: inherit;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .taoki {
+    width: 150px;
+    color: white;
+  }
+
+  /*Menu Burger*/
+
+  .burger {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 275px;
+    height: 100%;
+    background-color: rgb(29, 64, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 10px;
+    transform: translateX(-275px);
+  }
+
+  ul {
+    list-style: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+  }
+
+  li {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  hr {
+    width: 255px;
+    color: rgba(23, 23, 23, 0.62);
+  }
+
+
+
+  /*contenu*/
+
+  .contenu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Center {
+    width: 1000px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+  }
+
+  /*Anniversaire*/
+
+  .Anniversaire {
+    width: 300px;
+    margin-left: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(29, 64, 65);
+  }
+
+  h4 {
+    color: white;
+    font-size: 1.2em;
+  }
+
+  /*footer*/
+
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /*icones fontawesome*/
+
+  .icone {
+    font-size: 1.3em;
+    margin: 10px;
+  }
+
+  /*liens animés*/
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: font-size 400ms ease-in-out;
+  }
+
+  a:hover {
+    transform: scale(2);
+    font-size: 1.5em;
+  }
+
+  /*???*/
+
+  input[type=button] {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(29, 64, 65);
+    color: white;
+    border-style: hidden;
+    margin-left: 15px;
 }
 
-ul {
-  list-style: none;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 0px;
 }
 
-li {
-  margin-top: 15px;
-  margin-left: 0px;
-}
+@media (max-width: 750px) {
 
-hr {
-  width: 255px;
-  color: rgba(23, 23, 23, 0.62);
-}
+  /* html */
+  .body {
+    overflow : hidden ;
+  } 
 
-.Body {
-  display: flex;
-  flex-direction: row;
-}
+  html {
+    background: radial-gradient(ellipse farthest-corner at 50% 140%, rgba(0, 0, 0, 0.75) 10%, rgba(0, 0, 0, 0.85) 90%);
+    height: 100%;
+    font-family: sans-serif;
+  }
+   
+  /*header*/
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .Title {
+    background-color: inherit;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .taoki {
+    width: 150px;
+    color: white;
+  }
+  
 
-.Center {
-  width: 1000px;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-top: 50px;
-}
+  /*contenu*/
+  
+  .contenu {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Center {
+    width: 1000px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+  }
+  
+  /*Menu burger horizontal si l'écran est trop petit*/
+  
+  
+  .burger {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(29, 64, 65);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align : center;
+    transform: translateY(-100px);
+  }
 
-.Anniversaire {
-  width: 300px;
-  margin-left: 15px;
-  padding: 10px;
-  text-align: center;
-  background-color: rgb(29, 64, 65);
-}
+  .menuListe, .menuAutre {
+    display: flex;
+    flex-direction: row;
+  }
 
-h4 {
-  color: white;
-  font-size: 1.2em;
-}
+  .texteBurger, .hrBurger{
+    display: none;
+  }
 
-footer ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
+    /*Menu Burger*/
+  
+    ul {
+      list-style: none;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 0px;
+    }
+    
+    
+    hr {
+      width: 255px;
+      color: rgba(23, 23, 23, 0.62);
+    }
+    
+  /*Anniversaire*/
+  
+  .Anniversaire {
+    width: 300px;
+    margin-left: 15px;
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(29, 64, 65);
+  }
+  
+  h4 {
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  /*footer*/
+  
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  /*icones fontawesome*/
+  
+  .icone {
+    font-size: 1.3em;
+    margin: 10px;
+  }
+  
+  /*liens animés*/
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: font-size 400ms ease-in-out;
+  }
+  
+  a:hover {
+    transform: scale(2);
+    font-size: 1.5em;
+  }
+  
+  /*???*/
+  
+  input[type=button] {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(29, 64, 65);
+    color: white;
+    border-style: hidden;
+    margin-left: 15px;
 
-.icone {
-  font-size: 1.3em;
-  margin: 10px;
-}
 
-a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.1em;
-  transition: font-size 400ms ease-in-out;
-}
-
-a:hover {
-  transform: scale(2);
-  font-size: 1.5em;
-}
-
-input[type=button] {
-  width: 100px;
-  height: 30px;
-  background-color: rgb(29, 64, 65);
-  color: white;
-  border-style: hidden;
-  margin-left: 15px;
 }
