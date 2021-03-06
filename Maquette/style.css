@@ -123,3 +123,9 @@ input[type=button], input[type=submit]{
   text-align: left;
   padding-left: 10px;
 }
+
+.Champ{
+  width: 750px;
+  height: 250px;
+  text-align: center;
+}
