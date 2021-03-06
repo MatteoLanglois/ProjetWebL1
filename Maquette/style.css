@@ -100,7 +100,7 @@ a:hover {
   font-size: 1.5em;
 }
 
-input[type=button] {
+input[type=button], input[type=submit]{
   width: 100px;
   height: 30px;
   background-color: rgb(29, 64, 65);
