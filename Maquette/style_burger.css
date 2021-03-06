@@ -8,6 +8,16 @@
   font-family: sans-serif;
   }
 
+  .site_container {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .site_pusher {
+    transition-duration: 0.3s;
+    transform: translateX(0px); 
+  }
+
+
   /*header*/
 
   header {
@@ -38,6 +48,7 @@
     height: 65px;
     cursor: pointer;
   }
+
 
   /*Menu Burger*/
 
@@ -80,7 +91,6 @@
   }
 
 
-
   /*contenu*/
 
   .contenu {
@@ -94,6 +104,7 @@
     margin-right: 10%;
     padding-top: 50px;
   }
+
 
   /*Anniversaire*/
 
@@ -110,6 +121,7 @@
     font-size: 1.2em;
   }
 
+
   /*footer*/
 
   footer ul {
@@ -118,12 +130,14 @@
     justify-content: space-around;
   }
 
+
   /*icones fontawesome*/
 
   .icone {
     font-size: 1.3em;
     margin: 10px;
   }
+
 
   /*liens animés*/
   .menu_link {
@@ -137,6 +151,7 @@
     transform: scale(2);
     font-size: 1.5em;
   }
+
 
   /*???*/
 
@@ -170,6 +185,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    position: static;
   }
   
   .Title {
