@@ -3,9 +3,26 @@
   <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="data/taoki.png">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/f0c5800638.js" crossorigin="anonymous"></script>
     <title>Paramètres</title>
   </head>
   <body>
-
+    <fieldset class=legal>
+      <legend class=legend>Réinitialisation des paramètres</legend>
+      <form method="get" name=password>
+        <p>
+        <h2>Réinitialisation du mot de passe</h2>
+        <label>Ancien mot de passe</label>
+        <input type="text" name="password" minlengh="8" maxlength="16" required>
+        </p>
+        <p>
+        <label>Nouveau mot de passe</label>
+        <input type="text" name="password" minlengh="8" maxlength="16" required>
+        </p>
+      </form>
+        <h2>Changement de l'image de profil</h2>
+        <span><p class="pp"></p><i class="fas fa-folder-open"></i>Charger une image à partir de mon ordinateur...</span>
+    </fieldset>
   </body>
 </html>

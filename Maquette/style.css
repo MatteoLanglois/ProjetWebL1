@@ -129,3 +129,11 @@ input[type=button], input[type=submit]{
   height: 250px;
   text-align: center;
 }
+
+.pp{
+  background: rgb(210,210,210);
+  border-radius:50%;
+  width:70px;
+  height:70px;
+  border:1px solid rgb(255,255,255);
+}
