@@ -1,5 +1,5 @@
 
-@media (min-width: 750px) { /*Pour les écrans de plus de 750pixels
+@media screen and (min-width: 750px) { /*Pour les écrans de plus de 750pixels
 
   /* html */
   html {
@@ -166,7 +166,7 @@
 
 }
 
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
 
   /* html */
   .body {
