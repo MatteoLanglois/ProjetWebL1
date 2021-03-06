@@ -1,5 +1,4 @@
 
-
 @media (min-width: 750px) { /*Pour les écrans de plus de 750pixels
 
   /* html */
@@ -41,6 +40,10 @@
   }
 
   /*Menu Burger*/
+
+  .move_menu {
+    transform: translateX(275px); 
+  }
 
   .burger {
     position: absolute;
