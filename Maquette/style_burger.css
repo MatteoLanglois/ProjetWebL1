@@ -9,8 +9,6 @@
   font-family: sans-serif;
   }
 
-
-
   /*header*/
 
   header {
@@ -30,6 +28,16 @@
   .taoki {
     width: 150px;
     color: white;
+  }
+
+  .burger_icon{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-size: 35px;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
   }
 
   /*Menu Burger*/
@@ -115,14 +123,14 @@
   }
 
   /*liens animés*/
-  a {
+  .menu_link {
     color: white;
     text-decoration: none;
     font-size: 1.1em;
     transition: font-size 400ms ease-in-out;
   }
 
-  a:hover {
+  .menu_link:hover {
     transform: scale(2);
     font-size: 1.5em;
   }
@@ -188,7 +196,16 @@
     margin-right: 10%;
     padding-top: 50px;
   }
-  
+
+  input[type=button] {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(29, 64, 65);
+    color: white;
+    border-style: hidden;
+    margin-left: 15px;}
+
+    
   /*Menu burger horizontal si l'écran est trop petit*/
   
   
@@ -263,27 +280,18 @@
   }
   
   /*liens animés*/
-  a {
+  .menu_link {
     color: white;
     text-decoration: none;
     font-size: 1.1em;
     transition: font-size 400ms ease-in-out;
   }
   
-  a:hover {
+  .menu_link:hover {
     transform: scale(2);
     font-size: 1.5em;
   }
   
-  /*???*/
   
-  input[type=button] {
-    width: 100px;
-    height: 30px;
-    background-color: rgb(29, 64, 65);
-    color: white;
-    border-style: hidden;
-    margin-left: 15px;
-
 
 }
