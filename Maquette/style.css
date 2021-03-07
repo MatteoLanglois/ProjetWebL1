@@ -7,6 +7,8 @@
   background: radial-gradient(ellipse farthest-corner at 50% 140%, rgba(0, 0, 0, 0.75) 10%, rgba(0, 0, 0, 0.85) 90%);
   /*height: 100%;*/
   font-family: sans-serif;
+  height: 100%;
+  color: white;
   }
 
   .site_container {
@@ -88,7 +90,7 @@
     transform: translateX(-275px);
   }
 
-  
+
   .menu_cross {
     color: white;
     padding-top: 10px;

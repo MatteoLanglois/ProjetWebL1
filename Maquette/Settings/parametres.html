@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="data/taoki.png">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="styleP.css">
     <script src="https://kit.fontawesome.com/f0c5800638.js" crossorigin="anonymous"></script>
     <title>Paramètres</title>
   </head>
-  <body onload="move_menu_burger();">
+  <body onload="../move_menu_burger();">
 
     <div class="site_container">
       <nav class="burger" id="menu_burger">
@@ -38,6 +39,7 @@
           <img src="data/taoki.png" alt="Image du dragon Taoki" class="taoki">
         </header>
     <a href="../index.html"><i class="fas fa-undo icone"></i></a>
+
     <fieldset class=legal>
       <legend class=legend>Réinitialisation des paramètres</legend>
       <form method="get" name=password>
@@ -52,12 +54,15 @@
         </p>
       </form>
         <h2>Changement de l'image de profil</h2>
-        <span><p class="pp"></p><i class="fas fa-folder-open"></i>Charger une image à partir de mon ordinateur...</span>
+        <img src="../data/PP.png" alt="Photo de profil" class="PP"><span><p class="pp"></p><i class="fas fa-folder-open"></i> Charger une image à partir de mon ordinateur</span>
     </fieldset>
+
+    <script src="../burger.js"></script>
+    <div class="site-cache" id="site-cache"></div>
     <footer>
       <ul>
-        <li><a href="Contact/contact_bugreport.html"><i class="fas fa-bug icone"></i>Signaler un problème/Contact</a></li>
-        <li><a href="credits.html"><i class="fab fa-linux icone"></i>A propos</a></li>
+        <li><a class="menu_link" href="Contact/contact_bugreport.html"><i class="fas fa-bug icone"></i>Signaler un problème/Contact</a></li>
+        <li><a class="menu_link" href="credits.html"><i class="fab fa-linux icone"></i>A propos</a></li>
       </ul>
     </footer>
   </div>
