@@ -5,18 +5,20 @@
   /* html */
   html {
   background: radial-gradient(ellipse farthest-corner at 50% 140%, rgba(0, 0, 0, 0.75) 10%, rgba(0, 0, 0, 0.85) 90%);
-  height: 100%;
+  /*height: 100%;*/
   font-family: sans-serif;
   }
 
   .site_container {
     -webkit-overflow-scrolling: touch;
+    height: 100%;
   }
 
-  .site_pusher {
+  /*.site_pusher {
     transition-duration: 0.3s;
-    transform: translateX(0px);
-  }
+    transform: translateX(0px) 300ms;
+    height: 100%;
+  }*/
 
 
   /*header*/
@@ -54,7 +56,20 @@
   /*Menu Burger*/
 
   .move_menu {
-    transform: translateX(275px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 275px;
+    /*height: 100%;*/
+    background-color: rgb(29, 64, 65);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 10px;
+    transform: translateX(0px);
+    transition-duration : 300ms;
   }
 
   .burger {
@@ -63,7 +78,7 @@
     top: 0;
     bottom: 0;
     width: 275px;
-    height: 100%;
+    /*height: 100%;*/
     background-color: rgb(29, 64, 65);
     display: flex;
     flex-direction: column;
@@ -71,6 +86,13 @@
     text-align: left;
     padding-left: 10px;
     transform: translateX(-275px);
+  }
+
+  
+  .menu_cross {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   ul {
