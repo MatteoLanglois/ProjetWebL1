@@ -14,8 +14,16 @@
   padding-top: 15px;
   border-radius: 4px;
 }
+
 .Center h2 {
   text-align: center;
+}
+
+.leaf {
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .texte {
@@ -50,4 +58,8 @@
 .Copybook:visited {
   text-decoration: none;
   color: black;
+}
+
+.Creation {
+  margin: 10px;
 }

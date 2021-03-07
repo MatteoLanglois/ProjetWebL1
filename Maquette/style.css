@@ -179,8 +179,8 @@
   /*???*/
 
   input[type=button] {
-    width: 100px;
-    height: 30px;
+    width: 200px;
+    height: 40px;
     background-color: rgb(29, 64, 65);
     color: white;
     border-style: hidden;
@@ -251,7 +251,7 @@
   }
 
   input[type=button] {
-    width: 100px;
+    width: 150px;
     height: 30px;
     background-color: rgb(29, 64, 65);
     color: white;
