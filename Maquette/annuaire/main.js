@@ -5,10 +5,6 @@ function move_menu_burger()
   p.onclick = move_burger;
 };
 
-function move_burger()
-{
-  document.getElementById("menu_burger").className = "move_menu";
-}
 
 function close_menu_burger()
 {
@@ -16,7 +12,3 @@ function close_menu_burger()
   p.onclick = close_burger;
 };
 
-function close_burger()
-{
-  document.getElementById("menu_burger").className = "burger";
-}
