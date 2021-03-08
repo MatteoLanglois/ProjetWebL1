@@ -6,7 +6,6 @@
   /*height: 100%;*/
   font-family: sans-serif;
   height: 100%;
-  color: white;
   }
 
   .site_container {
@@ -31,7 +30,6 @@
 
   .Title {
     background-color: inherit;
-    color: white;
     text-align: center;
     width: 80%;
     margin-left: 10%;
@@ -39,13 +37,11 @@
 
   .taoki {
     width: 150px;
-    color: white;
   }
 
   .burger_icon{
     padding-top: 10px;
     padding-left: 10px;
-    color: white;
     font-size: 35px;
     width: 65px;
     height: 65px;
@@ -62,7 +58,6 @@
     bottom: 0;
     width: 275px;
     /*height: 100%;*/
-    background-color: rgb(29, 64, 65);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -79,7 +74,6 @@
     bottom: 0;
     width: 275px;
     /*height: 100%;*/
-    background-color: rgb(29, 64, 65);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,14 +84,12 @@
 
 
   .menu_cross {
-    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
   ul {
     list-style: none;
-    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0px;
@@ -121,13 +113,19 @@
     flex-direction: row;
   }
 
-  .Center {
+  .Centre {
     width: 1000px;
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 50px;
   }
 
+  .Center {
+    width: 1000px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+  }
 
   /*Anniversaire*/
 
@@ -136,11 +134,9 @@
     margin-left: 15px;
     padding: 10px;
     text-align: center;
-    background-color: rgb(29, 64, 65);
   }
 
   h4 {
-    color: white;
     font-size: 1.2em;
   }
 
@@ -155,12 +151,11 @@
     bottom: 1%;
     left: 35%;
     font-size: 1.2em;
-    color: white;
     width: 30%;
   }
 
   footer ul:visited {
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
   }
 
@@ -174,7 +169,7 @@
 
   /*liens animés*/
   .menu_link {
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
     font-size: 1.1em;
     transition: font-size 400ms ease-in-out;
@@ -191,8 +186,8 @@
   input[type=button] {
     width: 200px;
     height: 40px;
-    background-color: rgb(29, 64, 65);
-    color: white;
+    background-color: var(--main-color);
+    color: var(--font-color);
     border-style: hidden;
     margin-left: 15px;
 }
@@ -200,9 +195,9 @@
   .retour {
     position: absolute;
     top: 90%;
-    left: 1%;
+    left: 3%;
     font-size: 2em;
-    color: white;
+    color: var(--font-color);
     transform: rotate(0deg);
     transition: transform 300ms ease-in-out;
   }
@@ -236,7 +231,7 @@
 
   .Title {
     background-color: inherit;
-    color: white;
+    color: var(--font-color);
     text-align: center;
     width: 70%;
     margin-left: 5%;
@@ -246,13 +241,13 @@
   .taoki {
     width: 200px;
     height: 200px;
-    color: white;
+    color: var(--font-color);
   }
 
   .burger_icon{
     padding-top: 10px;
     padding-left: 10px;
-    color: white;
+    color: var(--font-color);
     font-size: 30px;
     width: 50px;
     height: 50px;
@@ -276,8 +271,8 @@
   input[type=button] {
     width: 150px;
     height: 30px;
-    background-color: rgb(29, 64, 65);
-    color: white;
+    background-color: var(--main-color);
+    color: var(--font-color);
     border-style: hidden;
     margin-left: 15px;}
 
@@ -292,7 +287,7 @@
     right: 0;
     height: 100px;
     width: 100%;
-    background-color: rgb(29, 64, 65);
+    background-color: var(--main-color);
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -313,7 +308,7 @@
 
     ul {
       list-style: none;
-      color: white;
+      color: var(--font-color);
       margin-top: 10px;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -333,12 +328,12 @@
     margin-left: 15px;
     padding: 10px;
     text-align: center;
-    background-color: rgb(29, 64, 65);
+    background-color: var(--main-color);
     font-size: 40px;
   }
 
   h4 {
-    color: white;
+    color: var(--font-color);
     font-size: 1.5em;
     margin-bottom: 30px;
     margin-top: 20px;
@@ -364,7 +359,7 @@
 
   /*liens animés*/
   .menu_link {
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
     font-size: 1.1em;
     transition: font-size 400ms ease-in-out;
@@ -387,7 +382,7 @@
   /*height: 100%;*/
   font-family: sans-serif;
   height: 100%;
-  color: white;
+  color: var(--font-color);
   }
 
   .site_container {
@@ -412,7 +407,7 @@
 
   .Title {
     background-color: inherit;
-    color: white;
+    color: var(--font-color);
     text-align: center;
     width: 80%;
     margin-left: 10%;
@@ -420,13 +415,13 @@
 
   .taoki {
     width: 150px;
-    color: white;
+    color: var(--font-color);
   }
 
   .burger_icon{
     padding-top: 10px;
     padding-left: 10px;
-    color: white;
+    color: var(--font-color);
     font-size: 35px;
     width: 65px;
     height: 65px;
@@ -443,7 +438,7 @@
     bottom: 0;
     width: 275px;
     /*height: 100%;*/
-    background-color: rgb(29, 64, 65);
+    background-color: var(--main-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -460,7 +455,7 @@
     bottom: 0;
     width: 275px;
     /*height: 100%;*/
-    background-color: rgb(29, 64, 65);
+    background-color: var(--main-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -471,14 +466,14 @@
 
 
   .menu_cross {
-    color: white;
+    color: var(--font-color);
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
   .menuListe {
     list-style: none;
-    color: white;
+    color: var(--font-color);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0px;
@@ -517,11 +512,11 @@
     margin-left: 15px;
     padding: 10px;
     text-align: center;
-    background-color: rgb(29, 64, 65);
+    background-color: var(--main-color);
   }
 
   h4 {
-    color: white;
+    color: var(--font-color);
     font-size: 1.2em;
   }
 
@@ -545,7 +540,7 @@
 
   /*liens animés*/
   .menu_link {
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
     font-size: 1.1em;
     transition: font-size 400ms ease-in-out;
@@ -562,8 +557,8 @@
   input[type=button] {
     width: 200px;
     height: 40px;
-    background-color: rgb(29, 64, 65);
-    color: white;
+    background-color: var(--main-color);
+    color: var(--font-color);
     border-style: hidden;
     margin-left: 15px;
 }
@@ -593,7 +588,7 @@
 
   .Title {
     background-color: inherit;
-    color: white;
+    color: var(--font-color);
     text-align: center;
     width: 70%;
     margin-left: 5%;
@@ -603,13 +598,13 @@
   .taoki {
     width: 200px;
     height: 200px;
-    color: white;
+    color: var(--font-color);
   }
 
   .burger_icon{
     padding-top: 10px;
     padding-left: 10px;
-    color: white;
+    color: var(--font-color);
     font-size: 30px;
     width: 50px;
     height: 50px;
@@ -633,8 +628,8 @@
   input[type=button] {
     width: 150px;
     height: 30px;
-    background-color: rgb(29, 64, 65);
-    color: white;
+    background-color: var(--main-color);
+    color: var(--font-color);
     border-style: hidden;
     margin-left: 15px;}
 
@@ -649,7 +644,7 @@
     right: 0;
     height: 100px;
     width: 100%;
-    background-color: rgb(29, 64, 65);
+    background-color: var(--main-color);
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -670,7 +665,7 @@
 
     ul {
       list-style: none;
-      color: white;
+      color: var(--font-color);
       margin-top: 10px;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -690,12 +685,12 @@
     margin-left: 15px;
     padding: 10px;
     text-align: center;
-    background-color: rgb(29, 64, 65);
+    background-color: var(--main-color);
     font-size: 40px;
   }
 
   h4 {
-    color: white;
+    color: var(--font-color);
     font-size: 1.5em;
     margin-bottom: 30px;
     margin-top: 20px;
@@ -721,7 +716,7 @@
 
   /*liens animés*/
   .menu_link {
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
     font-size: 1.1em;
     transition: font-size 400ms ease-in-out;

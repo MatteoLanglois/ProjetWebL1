@@ -9,7 +9,6 @@
 }
 
 .Center {
-  background-color: white;
   height: 600px;
   padding-top: 15px;
   border-radius: 4px;
@@ -22,11 +21,9 @@
 
 .Dropzone {
   border: 3px dotted black;
-  color: black;
 }
 
 .texte {
-  color: black;
   margin-left: 15px;
   display: flex;
   flex-direction: row;
@@ -39,7 +36,6 @@
 .file {
   font-size: 2em;
   margin: 5px;
-  color: rgb(29, 64, 65);
 }
 
 .texte p {

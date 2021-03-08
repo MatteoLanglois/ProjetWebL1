@@ -40,7 +40,6 @@
 .Copybook i {
   font-size: 2em;
   margin: 5px;
-  color: rgb(29, 64, 65);
 }
 
 .Copybook {
@@ -57,7 +56,6 @@
 
 .Copybook:visited {
   text-decoration: none;
-  color: black;
 }
 
 .Creation {

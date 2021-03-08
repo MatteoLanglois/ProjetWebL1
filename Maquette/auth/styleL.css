@@ -6,11 +6,9 @@
 }
 
 .Login {
-  background-color: rgb(29, 64, 65);
   width: 25%;
   height: 500px;
   text-align: center;
-  color: white;
   display: flex;
   flex-direction: column;
   font-size: 1.2em;

@@ -1,0 +1,28 @@
+:root {
+  --font-color: white;
+  --font-color-nde: black;
+  --main-color: rgb(29, 64, 65);
+}
+
+html, ul, h4, .Title, .taoki, .burger_icon, .menu_cross, .menu_link, .retour, .Center, .legal, footer ul, footer ul:visited {
+  color: var(--font-color);
+}
+
+
+.move_menu, .burger, .Anniversaire, .file {
+  background-color: var(--main-color);
+}
+
+.sujets a, .Copybook i, .Dropzone, .texte, .Copybook:visited {
+  color: var(--font-color-nde);
+}
+
+input[type=button] {
+  background-color: var(--main-color);
+  color: var(--font-color);
+}
+
+.Login {
+  background-color: var(--main-color);
+  color: var(--font-color);
+}
