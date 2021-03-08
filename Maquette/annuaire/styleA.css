@@ -3,15 +3,16 @@
 
 /*html*/
 
-.task {
-    display: flex;
-    justify-content: space-between;
-    padding: 12px 0;
-    border-bottom: solid 1px white;
-
+.contact {
+  color : white
 }
 
-/* context menu */
+.hrcontact {
+  width: 750px;
+  color: rgba(23, 23, 23, 0.62);
+}
+
+/* context menu
 
 .context-menu {
   display: none;
@@ -45,18 +46,12 @@
   margin-bottom: 0;
 }
 
-.context-menu__link {
-  display: block;
-  padding: 4px 12px;
-  color: #0066aa;
-  text-decoration: none;
-}
 
 .context-menu__link:hover {
   color: #fff;
   background-color: #0066aa;
 }
-
+*/
 }
 
 @media all and (max-width: 1024px) {
