@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>onclick event example</title>
+<script type="text/javascript">
+function initElement()
+{
+  var p = document.getElementById("foo");
+  // NOTE: showAlert(); ou showAlert(param); NE fonctionne PAS ici.
+  // Il faut fournir une valeur de type function (nom de fonction déclaré ailleurs ou declaration en ligne de fonction).
+  p.onclick = showAlert;
+};
+
+function showAlert()
+{
+  alert("Evènement de click détecté");
+}
+</script>
+<style type="text/css">
+#foo {
+border: solid blue 2px;
+}
+</style>
+</head>
+<body onload="initElement();">
+<span id="foo">Mon Span à cliquer</span>
+<p>Cliquez sur l'élément ci-dessus.</p>
+</body>
+</html>
