@@ -13,7 +13,7 @@ html, ul, h4, .Title, .taoki, .burger_icon, .menu_cross, .menu_link, .retour, .C
   background-color: var(--main-color);
 }
 
-.sujets a, .Copybook i, .Dropzone, .texte, .Copybook:visited {
+.sujets a, .Copybook i, .Dropzone, .Copybook:visited {
   color: var(--font-color-nde);
 }
 
