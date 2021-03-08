@@ -12,6 +12,51 @@
 
 }
 
+.Title{
+  color:white;
+}
+
+.site{
+  width: 60%;
+  margin:auto;
+}
+
+.Center h2{
+  text-align: center;
+  color:white;
+}
+
+.contact_list a{
+  color:white;
+}
+
+.contact{
+  display:flex;
+  flex-direction: row;
+}
+
+.contact a{
+  flex:auto;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.contact i{
+  flex:end;
+  margin-right: 10px;
+  color:white;
+}
+
+.hrcontact{
+  display:flex;
+  flex-direction: row;
+}
+
+.hrcontact hr{
+  flex:start;
+  margin-left: 20px;
+}
+
 /* context menu */
 
 .context-menu {
@@ -76,6 +121,51 @@
   font-size: 1.5em;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.Title{
+  color:white;
+}
+
+.site{
+  width: 60%;
+  margin:auto;
+}
+
+.Center h2{
+  text-align: center;
+  color:white;
+}
+
+.contact_list a{
+  color:white;
+}
+
+.contact{
+  display:flex;
+  flex-direction: row;
+}
+
+.contact a{
+  flex:auto;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.contact i{
+  flex:end;
+  margin-right: 10px;
+  color:white;
+}
+
+.hrcontact{
+  display:flex;
+  flex-direction: row;
+}
+
+.hrcontact hr{
+  flex:start;
+  margin-left: 20px;
 }
 
 /* context menu */
@@ -197,6 +287,51 @@ background-color: #0066aa;
   font-size: 1.5em;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.Title{
+  color:white;
+}
+
+.site{
+  width: 60%;
+  margin:auto;
+}
+
+.Center h2{
+  text-align: center;
+  color:white;
+}
+
+.contact_list a{
+  color:white;
+}
+
+.contact{
+  display:flex;
+  flex-direction: row;
+}
+
+.contact a{
+  flex:auto;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.contact i{
+  flex:end;
+  margin-right: 10px;
+  color:white;
+}
+
+.hrcontact{
+  display:flex;
+  flex-direction: row;
+}
+
+.hrcontact hr{
+  flex:start;
+  margin-left: 20px;
 }
 
 /* context menu */
