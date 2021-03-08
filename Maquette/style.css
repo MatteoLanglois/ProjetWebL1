@@ -187,6 +187,20 @@
     margin-left: 15px;
 }
 
+  .retour {
+    position: absolute;
+    top: 90%;
+    left: 1%;
+    font-size: 2em;
+    color: white;
+    transform: rotate(0deg);
+    transition: transform 300ms ease-in-out;
+  }
+
+  .retour:hover {
+    transform: rotate(360deg);
+  }
+
 }
 
 @media all and (max-width: 1024px) {
