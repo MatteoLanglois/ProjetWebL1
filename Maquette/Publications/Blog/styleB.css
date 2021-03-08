@@ -80,3 +80,11 @@
   justify-content: flex-end;
   margin: 10px;
 }
+
+.site {
+  width: 80%;
+}
+ input[type=button] {
+   width: 130px;
+   font-size: 1.2em;
+ }
