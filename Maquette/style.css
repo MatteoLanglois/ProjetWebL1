@@ -150,9 +150,19 @@
   footer ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 1%;
+    left: 35%;
+    font-size: 1.2em;
+    color: white;
+    width: 30%;
   }
 
+  footer ul:visited {
+    color: white;
+    text-decoration: none;
+  }
 
   /*icones fontawesome*/
 
@@ -200,7 +210,6 @@
   .retour:hover {
     transform: rotate(360deg);
   }
-
 }
 
 @media all and (max-width: 1024px) {
@@ -559,7 +568,6 @@
     margin-left: 15px;
 }
 
-}
 
 @media all and (max-width: 1024px) {
 
@@ -723,7 +731,3 @@
     transform: scale(2);
     font-size: 1.5em;
   }
-
-
-
-}
