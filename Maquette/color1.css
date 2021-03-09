@@ -31,3 +31,7 @@ input[type=button] {
   background-color: var(--main-color);
   color: var(--font-color);
 }
+
+a:visited {
+  color: var(--font-color);
+}
